@@ -1,8 +1,8 @@
 [
   {
     "products": {
-      "id": 198,
-      "title": "Lash",
+      "id": 13,
+      "title": "NEW NAME CARD",
       "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
       "category": "beauty",
       "price": 9.99,
@@ -54,8 +54,8 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
     },
 
-    "id": 2,
-    "title": "Palette",
+    "id": 23,
+    "title": "Mirror",
     "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
     "category": "beauty",
     "price": 19.99,
@@ -108,7 +108,7 @@
   },
   {
     "id": 32,
-    "title": "P Canister",
+    "title": "Powder Canister RRRRR",
     "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
     "category": "beauty",
     "price": 14.99,
@@ -158,111 +158,5 @@
       "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
     ],
     "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png"
-  },
-  {
-    "id": 422,
-    "title": "Red Lipstick",
-    "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
-    "category": "beauty",
-    "price": 12.99,
-    "discountPercentage": 19.03,
-    "rating": 2.51,
-    "stock": 68,
-    "tags": ["beauty", "lipstick"],
-    "brand": "Chic Cosmetics",
-    "sku": "O5IF1NTA",
-    "weight": 5,
-    "dimensions": { "width": 14.37, "height": 13.94, "depth": 14.6 },
-    "warrantyInformation": "Lifetime warranty",
-    "shippingInformation": "Ships in 2 weeks",
-    "availabilityStatus": "In Stock",
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Great product!",
-        "date": "2024-05-23T08:56:21.619Z",
-        "reviewerName": "Leo Rivera",
-        "reviewerEmail": "leo.rivera@x.dummyjson.com"
-      },
-      {
-        "rating": 4,
-        "comment": "Very pleased!",
-        "date": "2024-05-23T08:56:21.619Z",
-        "reviewerName": "Oscar Powers",
-        "reviewerEmail": "oscar.powers@x.dummyjson.com"
-      },
-      {
-        "rating": 5,
-        "comment": "Very pleased!",
-        "date": "2024-05-23T08:56:21.619Z",
-        "reviewerName": "Carter Rivera",
-        "reviewerEmail": "carter.rivera@x.dummyjson.com"
-      }
-    ],
-    "returnPolicy": "90 days return policy",
-    "minimumOrderQuantity": 6,
-    "meta": {
-      "createdAt": "2024-05-23T08:56:21.619Z",
-      "updatedAt": "2024-05-23T08:56:21.619Z",
-      "barcode": "9444582199406",
-      "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-    },
-    "images": [
-      "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png"
-    ],
-    "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png"
-  },
-  {
-    "id": 5,
-    "title": "Red Nail Polish",
-    "description": "The Red Nail Polish offers a rich and glossy red hue for vibrant and polished nails. With a quick-drying formula, it provides a salon-quality finish at home.",
-    "category": "beauty",
-    "price": 8.99,
-    "discountPercentage": 2.46,
-    "rating": 3.91,
-    "stock": 71,
-    "tags": ["beauty", "nail polish"],
-    "brand": "Nail Couture",
-    "sku": "YUIIIP4W",
-    "weight": 9,
-    "dimensions": { "width": 8.11, "height": 10.89, "depth": 29.06 },
-    "warrantyInformation": "1 year warranty",
-    "shippingInformation": "Ships in 1 week",
-    "availabilityStatus": "In Stock",
-    "reviews": [
-      {
-        "rating": 5,
-        "comment": "Very pleased!",
-        "date": "2024-05-23T08:56:21.619Z",
-        "reviewerName": "Leo Rivera",
-        "reviewerEmail": "leo.rivera@x.dummyjson.com"
-      },
-      {
-        "rating": 5,
-        "comment": "Great product!",
-        "date": "2024-05-23T08:56:21.619Z",
-        "reviewerName": "Evan Reed",
-        "reviewerEmail": "evan.reed@x.dummyjson.com"
-      },
-      {
-        "rating": 4,
-        "comment": "Highly recommended!",
-        "date": "2024-05-23T08:56:21.619Z",
-        "reviewerName": "Evelyn Sanchez",
-        "reviewerEmail": "evelyn.sanchez@x.dummyjson.com"
-      }
-    ],
-    "returnPolicy": "No return policy",
-    "minimumOrderQuantity": 46,
-    "meta": {
-      "createdAt": "2024-05-23T08:56:21.619Z",
-      "updatedAt": "2024-05-23T08:56:21.619Z",
-      "barcode": "3212847902461",
-      "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-    },
-    "images": [
-      "https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/1.png"
-    ],
-    "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/thumbnail.png"
   }
 ]

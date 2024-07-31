@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import data from './data';
+import App from './App';
+
 // import { App } from 'components/App';
 // import './index.css';
 
@@ -25,20 +26,6 @@ import data from './data';
 
 ////////////////////////////////////////////////////////////////////////////
 
-const cardProduct = data.map(product => (
-  <div key={product.id} className="card" style={{ width: '18rem' }}>
-    <img src={product.images} className="card-img-top" alt="..." />
-    <div className="card-body">
-      <h5 className="card-title">{product.title}</h5>
-      <p className="card-text">{product.description}</p>
-      <a href="_" className="btn btn-primary">
-        {product.price}
-      </a>
-    </div>
-  </div>
-));
-
-console.log(cardProduct);
 const root = document.getElementById('root');
 
-ReactDOM.createRoot(root).render(cardProduct);
+ReactDOM.createRoot(root).render(<App />);
