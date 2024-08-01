@@ -2,7 +2,7 @@
   {
     "products": {
       "id": 13,
-      "title": "NEW NAME CARD",
+      "title": "NEW NAME CARD @2",
       "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
       "category": "beauty",
       "price": 9.99,
@@ -54,7 +54,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
     },
 
-    "id": 23,
+    "id": 2,
     "title": "Mirror",
     "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
     "category": "beauty",
@@ -107,8 +107,8 @@
     "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png"
   },
   {
-    "id": 32,
-    "title": "Powder Canister RRRRR",
+    "id": 3,
+    "title": "Powder Canister",
     "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
     "category": "beauty",
     "price": 14.99,
