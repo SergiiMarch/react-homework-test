@@ -29,3 +29,17 @@ import App from './App';
 const root = document.getElementById('root');
 
 ReactDOM.createRoot(root).render(<App />);
+
+var number = function (busStops) {
+  // Good Luck!
+};
+console.log(
+  number(
+    [
+      [10, 0],
+      [3, 5],
+      [5, 8],
+    ],
+    5
+  )
+);
