@@ -6,21 +6,30 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import Sidebar from './components/Sidebar/Sidebar';
 
-console.log(Sidebar);
+const savedClickLocal = () => {
+  const savedClicks = window.localStorage.getItem('saved-clicks');
+  return savedClicks !== null ? Number(savedClicks) : 0;
+};
+
+const savedModalState = () => {
+  const savedState = window.localStorage.getItem('saved-modal');
+  return savedState === 'true'; // Перетворюємо рядок у boolean
+};
+
 const App = () => {
-  const [clicks, setClicks] = useState(() => {
-    const savedClicks = window.localStorage.getItem('saved-clicks');
+  const [clicks, setClicks] = useState(savedClickLocal);
 
-    return savedClicks !== null ? Number(savedClicks) : 0;
-  });
-
-  const [isSideBaarOpen, setIsSideBaarOpen] = useState(false);
+  const [isSideBaarOpen, setIsSideBaarOpen] = useState(savedModalState);
   const openSidebar = () => setIsSideBaarOpen(true);
   const closeSidebar = () => setIsSideBaarOpen(false);
 
   const [date, setDate] = useState(new Date());
 
   const color = clicks % 5 === 0 ? 'green' : 'grey';
+
+  useEffect(() => {
+    window.localStorage.setItem('saved-modal', isSideBaarOpen);
+  }, [isSideBaarOpen]);
 
   useEffect(() => {
     window.localStorage.setItem('saved-clicks', clicks);
